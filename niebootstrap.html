@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </link>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p style="text-align:center">nie bootstrap</p>
+  <div class="mywhite myshadow">
+    <p>asfd</p>
+    <p>asfd</p>
+
+  </div>
+
+  <div class="mycontainer">
+    <h1>paragraph</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, odio, eligendi recusandae sit, eius repellat est maxime voluptas quo mollitia beatae dolorem nemo! Quaerat eaque velit, ipsum delectus porro, libero! </p>
+  </div>
+  <div class="mycontainer">
+    <div class="myrow">
+      <div class="elem">
+        <p>test 1 test 1 test 1 test 1 || </p>
+      </div>
+      <div class="elem">
+        <p>test 2 test 2 test 2 test 2 test || </p>
+      </div>
+      <div class="elem">
+        <p>test 3 test 3 test 3 test 3 test 3 ||</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mycontainer">
+    <div class="myrow" style="text-align:center;">
+      <div style="flex: 20%"><img src="drzwi.png" class="myfluid-80" alt="">asdf</div>
+      <div style="flex: 20%"><img src="drzwi.png" class="myfluid-80" alt="">asdf</div>
+      <div style="flex: 20%"><img src="drzwi.png" class="myfluid-80" alt="">asdf</div>
+      <div style="flex: 20%"><img src="drzwi.png" class="myfluid-80" alt="">asdf</div>
+      <div style="flex: 20%"><img src="drzwi.png" class="myfluid-80" alt="">asdf</div>
+    </div>
+  </div>
+
+  <div class="mycontainer">
+    <button class="mybtn mybtn-primary">Button 1</button>
+    <button class="mybtn mybtn-primary">Button 2</button>
+
+  </div>
+
+  <div class="mycontainer">
+    <p style="font-size:1em">1 em</p>
+    <p style="font-size:1rem">1 rem</p>
+    <p style="font-size:16px">16px</p>
+    <p><span style="font-family:Roboto">Roboto</span><span>Roboto default</span> </p>
+  </div>
+
+
+
+  <div id="app" v-if="false">
+    <div class="myrow">
+      <!-- <img v-for="n in 10" src="drzwi.png" style="max-width:150px;padding:5px" alt=""> -->
+      <div v-for="n in 10" style="width:100px;padding:10px">
+        <img src="drzwi.png" class="img-fluid" alt="">
+        <p class="caption" style="text-align:center">podpis</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+  <script>
+    let app = new Vue({
+      el: '#app',
+      data: {
+
+      }
+
+    })
+  </script>
+</body>
+
+</html>

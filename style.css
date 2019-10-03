@@ -1,0 +1,62 @@
+.myrow{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.elem{
+  border:1px black solid;
+  border-radius: 5px;
+  padding:5px;
+  margin:5px;
+}
+
+.myfluid{
+  max-width:100%
+}
+
+.myfluid-80{
+  display:flex;
+  max-width:80%;
+  margin:auto;
+}
+
+.mycontainer{
+  max-width:95%;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myshadow{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.mywhite{
+  background-color: #fff;
+}
+
+body{
+  margin:0px;
+  background-color:#f8fafc;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  color:#212529;
+}
+
+.mybtn{
+  font-family:Segoe;
+  font-weight:400;
+  font-size:1em;
+  text-align:center;
+  border: 1px solid transparent;
+  padding: .75rem .75rem;
+  border-radius: .25rem;
+  transition:0.3s;
+}
+
+.mybtn-primary{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
